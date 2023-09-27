@@ -66,20 +66,20 @@ const Footer = () => {
       <ContentContainer>
         <Logo img src={logo} alt="Logo" />
         <ContactInfo>
-          <Address>Przystań Terapeutyczna- Centrum Psychoterapii i Rozwoju Karina Rudnicka <br>
-          </br> ul. Energetyków 2
-70-656 Szczecin
-nip 955-191-15-12
-regon 811 784 324 <br></br>
+          <Address>Przystań Terapeutyczna- Centrum Psychoterapii i Rozwoju Karina Karina <br>
+          </br> ul. Jansa 22
+70-656 Szczecinek
+nip 955-955-955
+regon 811 955 955 <br></br>
           </Address>
-          <PhoneEmail>Telefon: 575 408 788</PhoneEmail>
-          <PhoneEmail>Email: cptprzystan@gmail.com</PhoneEmail>
+          <PhoneEmail>Telefon: 575 408 408</PhoneEmail>
+          <PhoneEmail>Email: cpt@gmail.com</PhoneEmail>
         </ContactInfo>
         <SocialIcons>
-          <a href="https://www.instagram.com/psychoterapeutkawsieci/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
             <FaInstagram />
           </a>
-          <a href="https://www.facebook.com/psychologrudnicka/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
             <FaFacebook />
           </a>
         </SocialIcons>
