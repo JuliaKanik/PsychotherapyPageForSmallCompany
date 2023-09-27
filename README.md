@@ -16,7 +16,7 @@ PsychotherapyPageForSmallCompany is a web application designed for small therapy
 
 ## Current Development Status
 
-At present, this project is primarily focused on the frontend display of therapy offers and the contact form. We are actively working on expanding its functionality by creating a backend system. This backend will enable the practice owner or designated staff to edit and manage the staff section of the website.
+At present, this project is primarily focused on the frontend display of therapy offers and the contact form. I am actively working on expanding its functionality by creating a backend system. This backend will enable the practice owner or designated staff to edit and manage the staff section of the website.
 
 ## Planned Features
 
