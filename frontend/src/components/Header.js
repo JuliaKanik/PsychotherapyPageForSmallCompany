@@ -68,16 +68,16 @@ const Header = () => {
         <a href="/"><img src={logo} alt="Logo" /></a>
         </Logo>
         <SocialIcons>
-          <a href="https://www.instagram.com/psychoterapeutkawsieci/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
             <FaInstagram />
           </a>
-          <a href="https://www.facebook.com/psychologrudnicka/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
             <FaFacebook />
           </a>
         </SocialIcons>
         <ContactInfo>
-          <PhoneNumber>Telefon: 575 408 788</PhoneNumber>
-          <Email>Email: cptprzystan@gmail.com</Email>
+          <PhoneNumber>Telefon: 575 408 408</PhoneNumber>
+          <Email>Email: cpt@gmail.com</Email>
         </ContactInfo>
       </HeaderContent>
     </HeaderContainer>
