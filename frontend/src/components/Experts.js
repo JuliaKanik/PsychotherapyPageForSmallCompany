@@ -47,21 +47,21 @@ const ExpertSection = () => {
   const experts = [
     {
       id: 1,
-      name: 'mgr Marta Smolińska',
+      name: 'mgr Marta A',
       education: 'Absolwentka Akademii Ekonomiczno-Humanistycznej w Warszawie na kierunku psychologia (specjalności kliczniczej i seksuologicznej).  Psychoterapeutka w procesie certyfikacji w Szkole Psychoterapii Crescentia. Członek Polskiego Towarzystwa Psychoterapii Poznawczo-Behawioralnej.',
       imageSrc: pic1,
       link: 'https://www.znanylekarz.pl/',
     },
     {
       id: 2,
-      name: 'mgr Karina Rudnicka',
+      name: 'mgr Karina B',
       education: 'Jestem dyplomowanym psychologiem i psychoterapeutą. Ukończyłam Krakowską Szkołę Psychoterapii w Nurcie Integracyjnym. Pomorskie Centrum Psychotrumatologii- w trakcie szkolenia z psychotraumatologii praktycznej. Stowarzyszenie na rzecz Rozwoju Psychiatrii i Opieki Środowiskowej - 4,5 letni kurs psychoterapii integralnej. Uniwersytet Szczeciński- kierunek psychologia kliniczna Wyższa Szkoła Integracji Europejskiej- podyplomowe studia Przygotowanie Pedagogiczne',
       imageSrc: pic2,
       link: 'https://www.znanylekarz.pl/',
     },
     {
       id: 3,
-      name: 'mgr Natalia Ćwikiel',
+      name: 'mgr Natalia C',
       education: 'Ukończyłam studia magisterskie z psychologii na Uniwersytecie Szczecińskim. Jestem w procesie certyfikacji  z Psychoterapii Systemowej w ramach Wielkopolskiego Towarzystwa Psychoterapii Systemowej.',
       imageSrc: pic3,
       link: 'https://www.znanylekarz.pl/',
