@@ -1,6 +1,8 @@
 # PsychotherapyPageForSmallCompany
 PsychotherapyPageForSmallCompany is a web application designed to showcase therapy services and provide a convenient form for inquiries. Tailored for small therapy practices, it offers a clean and user-friendly interface for potential clients to explore services and get in touch.
 
+![image](https://github.com/JuliaKanik/PsychotherapyPageForSmallCompany/assets/124036482/1e38046e-bf4b-4bab-9882-20aa70c83930)
+
 
 # PsychotherapyPageForSmallCompany
 
