@@ -1,9 +1,8 @@
-// server.js
-
 const express = require('express');
 const session = require('express-session');
+const cors = require('cors'); // Import the cors module
 const app = express();
-const port = 3001; // Choose your preferred port
+const port = 3001;
 
 // Middleware for parsing JSON data
 app.use(express.json());
@@ -11,13 +10,15 @@ app.use(express.json());
 // Initialize session middleware
 app.use(
   session({
-    secret: 'your_secret_key', // Replace with a strong, secret key
+    secret: 'your_secret_key',
     resave: false,
     saveUninitialized: false,
   })
 );
 
-// Sample login route
+// Enable CORS for all routes (adjust origin to your React app's URL)
+app.use(cors({ origin: 'http://localhost:3000' }));
+
 app.post('/api/login', (req, res) => {
   const { username, password } = req.body;
 
@@ -36,4 +37,3 @@ app.post('/api/login', (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
-

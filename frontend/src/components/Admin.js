@@ -81,7 +81,8 @@ function Admin() {
     
     try {
       // Make a POST request to your Express backend's login route
-      const response = await axios.post('/api/login', credentials);
+      const response = await axios.post('http://localhost:3001/api/login', credentials);
+
 
       // Check the response from the backend
       if (response.status === 200) {
@@ -110,11 +111,7 @@ function Admin() {
           <div>
            <h2>Welcome, Admin!</h2>
            <button onClick={handleLogout}>Log Out</button>
-           <Router>
-            <Routes>
-              <Route path="adminmanagement" element={<AdminExpertManagement />} />
-            </Routes>
-          </Router>
+           <AdminExpertManagement />
          </div>
           // Render AdminExpertManagement when loggedIn is true
   
